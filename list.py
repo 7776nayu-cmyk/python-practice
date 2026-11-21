@@ -10,15 +10,17 @@
 
 
 
-nums=[10,20,30,40,50,60]
-print(nums[0])
-print(nums[-1])
-print(nums[1:4]) 
-print(nums[::-1])
-nums.append(70)
-print(nums)
-nums.pop()
-print(nums)
+# nums=[10,20,30,40,50,60]
+# print(nums[0])
+# print(nums[-1])
+# print(nums[1:4]) 
+# print(nums[::-1])
+# nums.append(70)
+# print(nums)
+# nums.pop()
+# print(nums)
+
+
 #append adds an element at the end
 #insert an elements  at specfic postion
 #remove the element at specfic postion
@@ -26,6 +28,8 @@ print(nums)
 #clear: removes all elements
 #index: returns the index of an element 
 #count:count  the occerence of elements
+
+
 # nums=[1,2,3,4,5,6]
 # events=[]
 # #traditional loop apprach
@@ -34,3 +38,27 @@ print(nums)
 #         events.append(n**2)
 # #one line list comprehesion
 # evens_comp=[n**2 for n in nums if n%2==0]
+
+
+
+a=[10,20,30,40]
+print(a[1:3])
+
+
+a=[1,2,3]
+a.append([4,5])
+print(a)
+
+
+
+a=[10,20,30]
+a.insert(1,15)
+print(a)
+
+
+a=[1,2,2,3,2]
+a.remove(2)
+print(a)
+
+a=[5,10,15,20]
+print(a[-2])

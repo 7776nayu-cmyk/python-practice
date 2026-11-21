@@ -24,4 +24,3 @@ print(f"i1:{i1},i2:{i2}")
 print("after swaping")
 i1,i2=i2,i1
 print(f"i1:{i1},i2:{i2}")
-
